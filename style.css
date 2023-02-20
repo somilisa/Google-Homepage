@@ -40,7 +40,7 @@ input {
   width: 80%;
   padding: 10px;
   border-radius: 20px;
-  border: grey solid 1px;
+  border: buttonface solid 1px;
 }
 
 input:hover {
@@ -49,13 +49,15 @@ input:hover {
   cursor: text;
 }
 
+
+
 .btn-section {
   margin-top: 10px;
 }
 
 .btn-section button {
   padding: 10px;
-  border: none;
+  border: solid 2px transparent;
   border-radius: 5px;
   margin: 5px;
 }
