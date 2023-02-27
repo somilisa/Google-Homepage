@@ -39,18 +39,20 @@ main {
 
 input {
   width: 80%;
-  padding: 10px;
+  padding: 12px 45px;
+  padding-right: 70px;
   border-radius: 20px;
-  border: buttonface solid 1px;
+  border: 1px solid buttonface;
+  outline: none;
+  background: url("./Assets/search.svg") no-repeat, url(./Assets/google-voice.png) no-repeat, url(./Assets/google-lens.png) no-repeat;
+  background-position: left 15px top 12px, right 45px top 12px, right 15px top 12px;
+  background-size: 16px;
 }
 
 input:hover {
-  border: 1px solid transparent;
-  background-color: buttonface;
   cursor: text;
+  box-shadow: 0 1px 3px 2px rgba(0, 0, 0, 0.1);
 }
-
-
 
 .btn-section {
   margin-top: 10px;
@@ -59,18 +61,20 @@ input:hover {
 .btn-section button {
   background-color: #f8f9fa;
   padding: 10px;
-  border:  1px solid #f8f9fa;
+  border: 1px solid #f8f9fa;
   border-radius: 5px;
   margin: 5px;
 }
 
 .btn-section button:hover {
   border: 1px solid #dadce0;
-  box-shadow:0 1px 1px  rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
-.btn-section button:active{
+
+.btn-section button:active {
   border: 1px solid #4285f4;
 }
+
 footer {
   background-color: buttonface;
   height: 100px;
