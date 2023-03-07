@@ -8,10 +8,19 @@
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: 20%;
+  justify-content: flex-end;
+  gap: 15px;
+  width: 100%;
   margin-left: auto;
   height: 60px;
+  padding-right: 15px;
+}
+
+#hero {
+  max-width: 350px;
+  width: 100%;
+  object-fit: contain;
+  
 }
 
 a {
